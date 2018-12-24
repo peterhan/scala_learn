@@ -1,3 +1,4 @@
+//https://docs.scala-lang.org/tour/lower-type-bounds.html
 trait Node[+B] {
   def prepend(elem: B): Node[B]
 }
